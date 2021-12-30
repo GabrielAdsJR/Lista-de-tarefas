@@ -24,8 +24,12 @@ function mostrarTarefas() {
         <i class="fas fa-trash"></i>
     </button>
 
-}
-   
+</li>
+`
+
+    })
+
+
     listCompleta.innerHTML = novaLi
 
     localStorage.setItem("lista", JSON.stringify(arrayDeTarefas))
